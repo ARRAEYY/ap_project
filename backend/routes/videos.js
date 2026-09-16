@@ -160,4 +160,14 @@ router.get('/stream/:id', (req, res) => {
 // GET /api/videos/:id/comments
 
 
+// GET /api/videos/watch-history — Get watch history
+
+
+// POST /api/videos/watch-history — Add to history
+
+
+// DELETE /api/videos/watch-history — Clear history
+
+
+
 module.exports = router
